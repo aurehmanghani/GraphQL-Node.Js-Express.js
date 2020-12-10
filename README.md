@@ -1,7 +1,7 @@
 # GraphQL-Node.Js-Express.js
 GraphQL Node.Js Express.js
 
-#Fetch All books
+''Fetch All books
 {
     books{
       id
@@ -11,6 +11,7 @@ GraphQL Node.Js Express.js
       
     }
 }
+<br/>
 #Fetch All Authors with books
 {
     authors{
@@ -23,6 +24,7 @@ GraphQL Node.Js Express.js
       }
     }
 }
+<br/>
 #Fetch Single Book
 {
     book(id:1){
@@ -32,6 +34,7 @@ GraphQL Node.Js Express.js
       }
     }
 }
+<br/>
 #Add Book
 mutation{
     addBook(name: "String",authorId: 1) {
