@@ -2,6 +2,7 @@
 GraphQL Node.Js Express.js
 
 ''Fetch All books
+```json
 {
     books{
       id
@@ -41,3 +42,4 @@ mutation{
       id
     }
 }
+```
