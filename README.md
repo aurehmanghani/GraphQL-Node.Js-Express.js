@@ -12,7 +12,7 @@ Fetch All books
       
     }
 }
-<br/>
+
 Fetch All Authors with books
 {
     authors{
@@ -25,7 +25,7 @@ Fetch All Authors with books
       }
     }
 }
-<br/>
+
 Fetch Single Book
 {
     book(id:1){
@@ -35,7 +35,7 @@ Fetch Single Book
       }
     }
 }
-<br/>
+
 Add Book
 mutation{
     addBook(name: "String",authorId: 1) {
